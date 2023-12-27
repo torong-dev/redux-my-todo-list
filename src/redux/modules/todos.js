@@ -8,21 +8,21 @@ const SWITCH_TODO = "SWITCH_TODO";
 export const addTodo = (payload) => {
   return {
     type: ADD_TODO,
-    payload, // todo 객체
+    payload,
   };
 };
 
 export const removeTodo = (payload) => {
   return {
     type: REMOVE_TODO,
-    payload, // todo's id
+    payload,
   };
 };
 
 export const switchTodo = (payload) => {
   return {
     type: SWITCH_TODO,
-    payload, // 전체
+    payload,
   };
 };
 

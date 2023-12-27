@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
-  padding: 2.2rem;
+  padding: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   background-color: #bfdbfe;
