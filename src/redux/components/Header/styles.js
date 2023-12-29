@@ -23,6 +23,7 @@ const StyledHeader = styled.div`
 
 const StyledP = styled.p`
   animation: ${fadeInOut} 3s infinite;
+  cursor: pointer;
 `;
 
 export { StyledHeader, StyledP };

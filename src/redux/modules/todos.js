@@ -1,3 +1,5 @@
+// modules/todos.js
+
 import { v4 as uuidv4 } from "uuid";
 
 // action items
@@ -26,8 +28,8 @@ export const switchTodo = (payload) => {
   };
 };
 
-// initial states
-const initialState = [
+// initial state
+export const initialState = [
   {
     id: uuidv4(),
     title: "React Study",
@@ -48,7 +50,7 @@ const initialState = [
   },
 ];
 
-// reducers
+// reducer
 const todos = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TODO:

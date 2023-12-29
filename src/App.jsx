@@ -6,7 +6,7 @@ import store from "./redux/config/configStore";
 const App = () => {
   return (
     <Provider store={store}>
-      <Router />;
+      <Router />
     </Provider>
   );
 };

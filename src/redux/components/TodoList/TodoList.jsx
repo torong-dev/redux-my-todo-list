@@ -1,12 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { StyledDiv, StyledTodoListHeader, StyledTodoListBox } from "./styles";
+import { StyledTodoListHeader, StyledTodoListBox } from "./styles";
+import Todo from "../Todo/Todo";
 
 export default function TodoList({ isActive }) {
   const todos = useSelector((state) => state.todos);
 
   return (
-    <StyledDiv>
+    <div>
       <StyledTodoListHeader>
         {isActive ? "Working.. 🔥" : "Done..!🎉"}
       </StyledTodoListHeader>
@@ -17,6 +18,6 @@ export default function TodoList({ isActive }) {
             return <Todo key={item.id} todo={item} isActive={isActive} />;
           })}
       </StyledTodoListBox>
-    </StyledDiv>
+    </div>
   );
 }

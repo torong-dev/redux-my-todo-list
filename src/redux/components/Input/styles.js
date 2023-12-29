@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   display: flex;
+  justify-content: center;
   padding: 2rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;

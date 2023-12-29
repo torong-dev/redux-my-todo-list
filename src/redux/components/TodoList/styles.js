@@ -1,22 +1,15 @@
 import styled from "styled-components";
 
-const StyledDiv = styled.div`
-  height: 12rem;
-  padding: 2rem;
-  margin: 1rem;
-  border: 0.25rem solid #bfdbfe;
-  border-radius: 1rem;
-  width: 24rem;
-`;
-
 const StyledTodoListHeader = styled.h3`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 3rem;
 `;
 
 const StyledTodoListBox = styled.div`
   display: flex;
   flex-wrap: wrap;
+  padding-top: 1.5rem;
 `;
 
-export { StyledDiv, StyledTodoListHeader, StyledTodoListBox };
+export { StyledTodoListHeader, StyledTodoListBox };
