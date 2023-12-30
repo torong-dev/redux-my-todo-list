@@ -9,7 +9,7 @@ export default function TodoList({ isActive }) {
   return (
     <div>
       <StyledTodoListHeader>
-        {isActive ? "Working.. 🔥" : "Done..!🎉"}
+        {isActive ? "Working.. 🔥" : "Done..! 🎉"}
       </StyledTodoListHeader>
       <StyledTodoListBox>
         {todos

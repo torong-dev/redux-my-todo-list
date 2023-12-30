@@ -21,7 +21,7 @@ export default function Input() {
     setContent(e.target.value);
   };
 
-  const getError = (error, params) => {
+  const getError = (error) => {
     if (error === "1") {
       return alert(`제목과 내용을 모두 입력해주세요.`);
     } else {
